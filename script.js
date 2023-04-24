@@ -36,7 +36,7 @@ year.innerHTML=curtYear
                     icon: 'success',
                     title: 'Your message had sent',
                     showConfirmButton: true,
-                    timer: 10000
+                    timer: 1000
                 })
             }
         )
