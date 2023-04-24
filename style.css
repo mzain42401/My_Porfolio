@@ -32,7 +32,9 @@ section{
 }
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
+  
 }
+
 .about .about-content,
 .services .serv-content,
 
@@ -89,7 +91,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: #111;
 }
 .navbar .max-width{
     display: flex;
@@ -104,6 +106,9 @@ section .title::after{
 .navbar .logo a span{
     color: crimson;
     transition: all 0.3s ease;
+}
+.navbar.sticky .logo a{
+    color: crimson;
 }
 .navbar.sticky .logo a span{
     color: #fff;
@@ -123,9 +128,7 @@ section .title::after{
 .navbar .menu li a:hover{
     color: crimson;
 }
-.navbar.sticky .menu li a:hover{
-    color: #fff;
-}
+
 /* menu btn styling */
 .menu-btn{
     color: #fff;
@@ -152,6 +155,9 @@ section .title::after{
     pointer-events: none;
     transition: all 0.3s ease;
 }
+/* .scroll-up-btn>.developer{
+    color: #000;
+} */
 .scroll-up-btn.show{
     bottom: 30px;
     opacity: 1;
@@ -168,7 +174,7 @@ section .title::after{
     height: 100vh;
     color: #fff;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -178,6 +184,9 @@ section .title::after{
 }
 .home .max-width .row{
   margin-right: 0;
+}
+ .home-content {
+    margin-top: 50px;
 }
 .home .home-content .text-1{
     font-size: 27px;
@@ -450,6 +459,10 @@ text-align: justify;
 /* contact section styling */
 .contact .title::after{
     content: "get in touch";
+    background-color: rgb(218 218 218);
+}
+.contact{
+    background-color: rgb(218 218 218);
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -503,7 +516,7 @@ text-align: justify;
 .contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
@@ -513,7 +526,7 @@ text-align: justify;
 }
 .contact .right form .field input:focus,
 .contact .right form .textarea textarea:focus{
-    border-color: #b3b3b3;
+    border-color: #000000;
 }
 .contact .right form .textarea textarea{
   padding-top: 10px;
@@ -549,7 +562,7 @@ footer{
     color: #fff;
     text-align: center;
 }
-footer span a{
+.footerSpan{
     color: crimson;
     text-decoration: none;
 }
@@ -636,6 +649,7 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+    
 }
 @media (max-width: 690px) {
     .max-width{
