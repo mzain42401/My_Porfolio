@@ -564,7 +564,6 @@ footer{
 }
 .footerSpan{
     color: crimson;
-    text-decoration: none;
 }
 footer span a:hover{
     text-decoration: underline;
@@ -625,6 +624,9 @@ footer span a:hover{
         font-size: 23px;
         padding: 10px 30px;
     }
+    .home-content {
+        margin-top: 0px;
+    }
     .max-width{
         max-width: 930px;
     }
@@ -648,6 +650,9 @@ footer span a:hover{
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
+    }
+    footer{
+        font-size: 16px;
     }
     
 }
