@@ -2,7 +2,7 @@
 
 function check(){
 
-    if(document.getElementById("Name").value.length>5 && document.getElementById("Email").value.length>5 && document.getElementById("Msj").value.length>5 ){
+    if(document.getElementById("Name").value.length>2 && document.getElementById("Email").value.length>5 && document.getElementById("Msj").value.length>5 ){
         sendMail()
     }
 }
