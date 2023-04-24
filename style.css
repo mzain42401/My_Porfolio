@@ -159,7 +159,7 @@ section .title::after{
     color: #000;
 } */
 .scroll-up-btn.show{
-    bottom: 30px;
+    bottom: 60px;
     opacity: 1;
     pointer-events: auto;
 }
