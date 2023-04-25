@@ -247,17 +247,36 @@ section .title::after{
 .about .about-content .right p{
     text-align: justify;
 }
-.about .about-content .right a{
+.about .about-content .right .MZDEVELOPER{
     display: inline-block;
     background: crimson;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 6px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about .about-content .right .socialLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about .about-content .right .socialLinks a i:hover{
+    color: crimson;
+
+}
+.about .about-content .right .socialLinks a i{
+    color:gray;
+    padding: 30px 10px;
+    font-size: 25px;
 }
 .about .about-content .right a:hover{
     color: crimson;
