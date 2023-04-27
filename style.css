@@ -590,13 +590,24 @@ footer span a:hover{
         width: 300px;
     }
 }
-@media (max-width: 991px) {
+@media (max-width: 1180px) {
+    .services .serv-content .card{
+        height: 460px;
+    }
+}
+@media (max-width: 1105px) {
+    .services .serv-content .card{
+        height: 525px;
+    }
+}
+@media (max-width: 995px) {
     .max-width{
         padding: 0 50px;
     }
     .home{
         background:black;
     }
+    
 }
 @media (max-width: 947px){
     
@@ -659,7 +670,7 @@ footer span a:hover{
     .services .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
-        height: 450px;
+        height: 490px;
     }
     .skills .skills-content .column,
     .contact .contact-content .column{
