@@ -462,7 +462,7 @@ text-align: justify;
     color: white;
 }
 .projectHeading::after{
-    content: "what i done";
+    content: "what i can do";
     background-color: rgb(218 218 218);
 }
 section .projectHeading{
