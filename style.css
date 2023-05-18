@@ -431,14 +431,21 @@ text-align: justify;
     flex-wrap: wrap;
 }
 .img1{
-    background: url(./images/weather.jpeg);
+    background: url(./images/screencapture-file-C-Users-User-Downloads-themes-New-folder-2-index-html-2023-05-18-01_58_41.png);
 }
 .img2{
-    background: url(./images/todoWeb.png);
+    background: url(./images/screencapture-file-C-Users-User-Downloads-themes-New-folder-3-index-html-2023-05-18-01_59_00.png);
     /* background-position: top; */
 }
 .img3{
-    background: url(./images/stopWatch.png);
+    background: url(./images/screencapture-file-C-Users-User-Downloads-themes-New-folder-index-html-2023-05-18-01_58_11.png);
+}
+.img4{
+    background: url(./images/screencapture-file-C-Users-User-Downloads-themes-shoes-index-html-2023-05-18-01_59_28.png);
+}.img5{
+    background: url(./images/weather.jpeg);
+}.img6{
+    background: url(./images/todoWeb.png);
 }
 .center{
     height: 300px;
