@@ -742,9 +742,9 @@ footer span a:hover{
     .contact .right form .email{
         margin: 0;
     }
-    .right form .error-box{
+    /* .right form .error-box{
        width: 150px;
-    }
+    } */
     .scroll-up-btn{
         right: 15px;
         bottom: 15px;
